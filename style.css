@@ -118,6 +118,7 @@ h4
     width: 380px;
     max-width: 100%;
     position: relative;
+    margin-left: 90px
 }
 .mailme form input:first-child
 {
@@ -127,7 +128,7 @@ h4
     border: 2px solid green;
     outline: none;
     border-radius: 30px;
-    margin-right: 50px;
+    
 }
 .mailme form input:last-child
 {
@@ -152,7 +153,7 @@ h4
 {
     width: 100%;
     padding: 1px 0px;
-    background-color: pink;
+    background-color: lightblue;
 }
 .about img
 {
