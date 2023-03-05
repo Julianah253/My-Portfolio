@@ -14,12 +14,22 @@
 }
 nav
 {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+}
+.links
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: -70px;
+    /* padding-top: px; */
+    padding-left: 30%;
+    padding-right: 80px;
 }
 .logo
 {
@@ -28,7 +38,8 @@ nav
     letter-spacing: 5px;
     cursor: pointer;
     text-indent: 2%;
-    margin-right: 6%;
+    margin-left: 5%;
+    display: flex;
 } 
 span
 {
@@ -69,6 +80,12 @@ span:hover
     color: white;
     transition: .4s;
 }
+.love
+{
+    margin: -35px;
+    margin-left: 1578px;
+    margin-right: 100px;
+}
 .btn
 {
     background-color: green;
@@ -80,7 +97,7 @@ span:hover
     border-radius: 30px;
     transition: .4s;
 }
-.btn:hover
+.love:hover
 {
     transform: scale(1.2);
 }
